@@ -40,7 +40,7 @@ HoldRodCastDuration := 1000
 WaitForBobberDelay := 1000
 
 ; Set this to your navigation key, IMPORTANT
-NavigationKey := "ň"
+NavigationKey := "\"
 
 ;     SHAKE SETTINGS     ====================================================================================================;
 
@@ -67,11 +67,13 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 0
+ManualBarSize := 10000
+
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 10
 ; Color range to scan for initial white bar
-BarSizeCalculationColorTolerance := 15
+BarSizeCalculationColorTolerance := 150
+
 
 ; Color range to scan for minigame white bar
 WhiteBarColorTolerance := 5
@@ -81,7 +83,7 @@ ArrowColorTolerance := 0
 ; Amount of clicks per action cycle
 StabilizerLoop := 10
 ; Ratio for bar side maximum hold (1 = max bar|0.5 = half bar)
-SideBarRatio := 0.8
+SideBarRatio := 1.8
 ; Multiplier for how long to wait at the sides to prevent bounce
 SideBarWaitMultiplier := 4.5
 
